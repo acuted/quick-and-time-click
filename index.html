@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick & Time Click</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quick & Time Click</h1>
+        <div id="levelDisplay">Level: 1</div>
+        <button id="startButton">Start</button>
+        <button id="saveButton">Save Level</button>
+        <button id="infoButton">Instructions</button>
+        <div id="countdown" class="countdown">10</div>
+    </div>
+
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+            <span id="winCloseButton" class="close">&times;</span>
+            <p>You won!</p>
+        </div>
+    </div>
+
+    <div id="loseModal" class="modal">
+        <div class="modal-content">
+            <span id="loseCloseButton" class="close">&times;</span>
+            <p>You lose!</p>
+        </div>
+    </div>
+
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span id="infoCloseButton" class="close">&times;</span>
+            <h2>Instructions</h2>
+            <p>Click the "Start" button to begin the game.</p>
+            <p>One or more red squares will appear on the screen.</p>
+            <p>You must click on all the squares before time runs out!</p>
+            <p>If you click on all the squares in time, you win!</p>
+            <p>Click "Save Level" to save your current level.</p>
+        </div>
+    </div>
+
+    <script src="./assets/script/script.js" type="text/javascript"></script>
+</body>
+</html>
